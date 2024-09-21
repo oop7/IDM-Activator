@@ -43,7 +43,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## ℹ️ **Acknowledgments**
 
-- Special thanks to ActVer, which was instrumental in this script's functionality.
+- Special thanks to Ali.Dbg, which was instrumental in this script's functionality.
 
 ## ❓ **Contact**
 
