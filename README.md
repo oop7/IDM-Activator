@@ -14,7 +14,7 @@ IDM Activator is a tool to activate Internet Download Manager (IDM) for free, al
 
 ## 🛠️ **Installation**
 
-1. Download: Obtain the latest version of the tool from the releases page.
+1. Download: Obtain the latest version of the tool from the [releases page](https://github.com/oop7/IDM-Activator/releases).
 2. Extract: Unzip the downloaded file to a directory of your choice.
 
 ## 💻 **Usage**
