@@ -58,7 +58,7 @@ chcp 65001 >nul
 setlocal enabledelayedexpansion
 
 :: Define the path to your ASCII art file
-set "ascii_file=%TEMP%\ASCII_art.txt"
+set "ascii_file=%SRC_DIR%\ASCII_art.txt"
 
 :: Define the number of spaces for padding
 set "padding=                                            "
