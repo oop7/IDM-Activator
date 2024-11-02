@@ -36,13 +36,14 @@ IDM Activator is a tool to activate Internet Download Manager (IDM) for free, al
 ### 2. Follow the On-Screen Instructions:
 - Choose an option from the menu:
 - `1` to activate Internet Download Manager.
-- `2` to exit.
+- `2` to activate Extra-FileType_Extensions.
+- `3` to exit.
 - If you select 1, the script will decode the Base64 encoded files, copy them to the appropriate directory, and provide feedback on the operation status.
 
 ## ✅ **Troubleshooting**
 
 - **Administrative Privileges**: If the script does not prompt for administrative rights, ensure you are running it with the required permissions by right-clicking and selecting Run as Administrator.
-- **File Paths**: Verify that the encoded.txt and encoded_ascii_art.txt files are correctly placed in the src directory.
+- **File Paths**: Verify that the encoded.txt , encoded_2.txt , encoded_3.txt and ASCII_art.txt files are correctly placed in the src directory.
 - **Warning**: The default installation path for the software is:
 ``C:\Program Files (x86)\Internet Download Manager``
 If the software is not installed in this directory, please ensure the path is correct before continuing.
