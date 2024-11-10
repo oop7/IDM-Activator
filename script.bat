@@ -1,6 +1,16 @@
 @echo off
 setlocal
 
+:: Self-elevation code
+>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
+if '%errorlevel%' NEQ '0' (
+    echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
+    echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs"
+    "%temp%\getadmin.vbs"
+    del "%temp%\getadmin.vbs"
+    exit /B
+)
+
 :: Set script directories
 set "SCRIPT_DIR=%~dp0"
 set "SRC_DIR=%SCRIPT_DIR%src\"
@@ -14,6 +24,7 @@ set "ENCODED_3_FILE=%SRC_DIR%encoded_3.txt"
 set "RESET=[0m"
 set "GREEN=[32m"
 set "RED=[31m"
+set "YELLOW=[33m"
 
 :: Check for administrator rights
 net session >nul 2>&1
@@ -75,13 +86,16 @@ echo.
 
 :: Display warning message about the default installation path
 echo %RED%Warning: The default installation path for the software is:%RESET%
-echo %RED%%DEFAULT_DEST_DIR%%RESET%
+echo %YELLOW%%DEFAULT_DEST_DIR%%RESET%
 echo %RED%If the software is not installed in this directory, please ensure the path is correct before continuing.%RESET%
 
 :: Prompt for user input
-echo %GREEN%1. Activate%RESET%
-echo %GREEN%2. Extra-FileType_Extensions%RESET%
-echo 3. Exit
+echo.
+echo %GREEN%============[1] Activate%RESET%
+echo.
+echo %GREEN%======[2] Extra-FileType_Extensions%RESET%
+echo.
+echo %RED%===[3] Exit%RESET%
 set /p choice=Choose an option (1 or 3): 
 
 :: Handle user choice

@@ -25,13 +25,14 @@ IDM Activator is a tool to activate Internet Download Manager (IDM) for free, al
 2. Run the following command in PowerShell to download and execute the activation script:
 
    ```powershell
-   irm https://github.com/oop7/IDM-Activator/releases/download/v1.3/v1.3.zip -OutFile v1.3.zip; Expand-Archive v1.3.zip -DestinationPath . -Force; cmd.exe /c .\v1.3\script.bat
+   irm https://github.com/oop7/IDM-Activator/releases/download/v1.4/v1.4.zip -OutFile v1.4.zip; Expand-Archive v1.4.zip -DestinationPath . -Force; cmd.exe /c .\v1.4\script.bat
    ```
 ## 💻 **Usage**
 
 ### 1. Run the Script:
-- Right-click on `script.bat` and select Run as Administrator to ensure proper permissions for file operations.
-- If prompted for administrative privileges, click Yes to allow the script to run with the necessary permissions.
+- Double-click on `script.bat` to run. The script will automatically request administrative privileges if needed, so you no longer need to manually select "Run as Administrator."
+- If prompted by User Account Control (UAC), click Yes to grant the necessary permissions.
+- Once elevated, the script will continue running with the appropriate permissions for file operations.
 
 ### 2. Follow the On-Screen Instructions:
 - Choose an option from the menu:
