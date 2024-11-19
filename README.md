@@ -49,6 +49,12 @@ IDM Activator is a tool to activate Internet Download Manager (IDM) for free, al
 ``C:\Program Files (x86)\Internet Download Manager``
 If the software is not installed in this directory, please ensure the path is correct before continuing.
 
+## 🔗 **Encoded files**
+
+- encoded.txt‎ ---→ Contains a cracked version of IDM.exe.
+- encoded_2.txt ---→ registry values to activate IDM.
+- encoded_3.txt ---→ Registry entries for extra IDM file extensions.
+
 ## 📜 **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
