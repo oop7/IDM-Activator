@@ -48,6 +48,7 @@ IDM Activator is a tool to activate Internet Download Manager (IDM) for free, al
 - **Warning**: The default installation path for the software is:
 ``C:\Program Files (x86)\Internet Download Manager``
 If the software is not installed in this directory, please ensure the path is correct before continuing.
+- **Registered with a fake serial**: Use a trusted third-party uninstaller like IObit Uninstaller, and then use this script [IObit.Uninstaller-Activator](https://github.com/oop7/IObit.Uninstaller-Activator) to activate it and ensure all files, including registry entries, are removed.
 
 ## 🔗 **Encoded files**
 
