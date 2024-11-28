@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\DownloadManager]
+"LstCheck"=""
+"radxcnt"=
+"FName"="enjoy<3"
+"LName"=" "
+"nLst"=dword:00000001
